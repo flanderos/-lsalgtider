@@ -1,25 +1,30 @@
 header {
+    margin: auto 5px;
+    padding: auto 10px;
     background-color: black;
     text-align: center;
     height: 100%;
     width: 100%;
     position: relative;
-    bottom: 15px;
     font-size: 100%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;  
 }
 
-h1     {
+h1     { 
+         
          color: white;
          position: relative;
          bottom: 15%;
          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         margin: 5%;
 }
 
 h2      {
+         
          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
          text-align: center;
          color: black;
+         font-size: 140%;
 }
 
 .list {
@@ -28,23 +33,22 @@ h2      {
         text-align: center;
         color: black; 
         size: 15%;
+        margin: 10%;
 }
 
 ul    { 
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         display: inline-block; 
-        text-align: left;
+        text-align: center;
         list-style-type: none; 
+        margin: 10%;
+        
     }
 
 
 
 
-#kl {
-    display: list-item;
-    background-position: 100%;
-    font-size: 100%;
-}
+
 
 footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
